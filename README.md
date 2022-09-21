@@ -8,9 +8,10 @@
   このリポジトリをクローンするか、Zipファイルをダウンロードしてください。
   
 - **動画のダウロード**  
-  AIST Dance Video DataBaseの公式サイトから動画をダウンロードしてください。  
+  AIST Dance Video DataBaseの公式サイトから動画を直接ダウンロードするか、URLのリストが載ったcsvファイルを入手してください。   
   https://aistdancedb.ongaaccel.jp/  
-  （１つのダンスにつき、c01~c08の8つの動画が対象です）
+  csvからダウンロードする場合はdownloader.exeを実行し、csvファイルを選択すれば動画のダウンロードとセットアップが始まります。  
+  （動画はdownloader.exeと同じディレクトリにダウンロードされます。）  
   
 - **データのダウンロード**  
   AIST++の公式サイトからcamerasおよびkeypoints2dのデータをダウンロードしてください。  
@@ -34,24 +35,17 @@
 |   └─ keypoints2d
 |       ├─ gBR_sBM_cAll_d04_mBR0_ch01.pkl
 |       |               :
-|
-├─ gBR_sBM_cAll_d04_mBR0_ch01 (AIST Dance Video DataBase の動画ファイル)
-|   ├─ gBR_sBM_c01_d04_mBR0_ch01.mp4
-|   |                :
-|   └─ gBR_sBM_c08_d04_mBR0_ch01.mp4
-|
-├─ gBR_sBM_cAll_d04_mBR0_ch02
-|              :
-</pre>
-- AIST Dance Video DataBase の動画データは、ダンスごとにcAllというフォルダを作成し、c01~c08までのmp4動画を入れる
+
+（動画のフォルダはどこでも良い）
+</pre>  
 - AIST++のcamerasおよびkeypoints2dはzipを解凍してフォルダごとdataに移動させる
   
 ## キーポイントの説明
 以下の説明を参考に、キーポイントのアノテーションを行ってください。  
   ![画像の説明](Pictures/keypoints_explanation.png)
-- Hips ... 骨盤（尾てい骨辺り）
+- Hips ... 尻（尾てい骨辺り）
 - Spine ... 腰（おへその辺り）
-- Chest ... みぞおちの辺り（首と骨盤の中間らへん）
+- Chest ... 腹部
 - UpperChest ... 胸部
 - Neck ... 首の付け根
 - HeadTop ... 頭頂
