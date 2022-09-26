@@ -1,7 +1,10 @@
 # keypoints-annotation-tool
 
 ## 概要
-  AISTダンス動画データベース専用のキーポイントアノテーションツールです。
+  AISTダンス動画データベース専用のキーポイントアノテーションツールです。  
+  使い方は以下の動画で詳しく紹介しています。  
+  - 準備編：https://youtu.be/juAN_2vrP1g  
+  - 作業編：https://youtu.be/SwvJ9fjki6U  
 
 ## 事前準備
 - **プログラムのダウンロード**  
