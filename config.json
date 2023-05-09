@@ -43,5 +43,8 @@
   ],
   "cameras_path": "data/cameras",
   "keypoints2d_path": "data/keypoints2d",
-  "help_url": "https://github.com/kazuhiro1999/keypoints-annotation-tool"
+  "start_frame": 500,
+  "interval": 3,
+  "num_frames": 350,
+  "help_url": "https://github.com/kazuhiro1999/keypoints-annotation-tool/tree/dance-annotation"
 }
